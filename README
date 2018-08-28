@@ -1,0 +1,18 @@
+Name: Matthew Howell
+
+Clemson Email Address: mrhowel@clemson.edu
+
+Project no: 5 & 6
+
+Project due date: 5/2/2017
+
+Project description: Create a complete game with a consistent theme/story and a conclusion.
+
+The easiest part of this project: Making this readme.
+
+Problems that I had in completing this project:
+
+Collisions were troublesome to get working and although they mostly work, if the ball hits the top of paddle it does not bounce as expected. I wanted to implement more proper collisions so that the bounce would be based on how the ball hit the paddle, but didn't have time. 
+
+Sources: 
+

@@ -1,0 +1,293 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>Pong</title>
+<screenTitle>Star Animation - mrhowel</screenTitle>
+
+<maxStringSize>50</maxStringSize>
+<interactionDistance>10000</interactionDistance>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+<maxFrames>400</maxFrames>
+
+<numberOfSnowFlakes>500</numberOfSnowFlakes>
+
+<frameMax>100</frameMax>
+
+<userinfo>
+<name>mrhowel</name>
+<posX>0</posX>
+<posY>700</posY>
+</userinfo>
+
+<view>
+  <width>1280</width>
+  <height>720</height>
+</view>
+
+<world>
+  <width>1280</width>
+  <height>720</height>
+</world>
+
+<back>
+  <file>images/blackBackground.png</file>
+  <factor>3</factor>
+  <transparency>false</transparency>
+</back>
+
+<back2>
+  <file>images/trees.bmp</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</back2>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>12</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>200</blue>
+  <alpha>0</alpha>
+</font>
+
+<spinstar>
+  <file>images/spinstar.png</file>
+  <startLoc x="120" y="140"/>
+  <frames>4</frames>
+  <frameInterval>20</frameInterval>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</spinstar>
+
+<star1>
+    <chunk>
+      <size>9</size>
+      <distance>200</distance>
+    </chunk>
+  <file>images/yellowstar32.png</file>
+  <startLoc x="600" y="300"/>
+  <speedX>-300</speedX>
+  <speedY>-250</speedY>
+  <transparency>true</transparency>
+</star1>
+
+<ball>
+    <chunk>
+      <size>9</size>
+      <distance>200</distance>
+    </chunk>
+  <file>images/whiteSquareSm.png</file>
+  <startLoc x="600" y="300"/>
+  <speedX>-300</speedX>
+  <speedY>-250</speedY>
+  <transparency>true</transparency>
+</ball>
+
+<greenorb>
+  <file>images/greenball.bmp</file>
+  <startLoc x="320" y="240"/>
+  <speedX>175</speedX>
+  <speedY>175</speedY>
+  <transparency>true</transparency>
+</greenorb>
+
+<player>
+  <chunk>
+  <size>9</size>
+  <distance>200</distance>
+  </chunk>
+  <file>images/bluepaddle.png</file>
+  <startLoc x="50" y="312"/>
+  <frames>1</frames>
+  <frameWidth>24</frameWidth>
+  <frameHeight>156</frameHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <moveSpeed>150</moveSpeed>
+  <transparency>true</transparency>
+</player>
+
+<player2>
+  <chunk>
+  <size>9</size>
+  <distance>200</distance>
+  </chunk>
+  <file>images/redpaddle.png</file>
+  <startLoc x="1230" y="312"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <moveSpeed>200</moveSpeed>
+  <transparency>true</transparency>
+</player2>
+
+<runner>
+    <chunk>
+      <size>9</size>
+      <distance>200</distance>
+    </chunk>
+  <file>images/runningcat.bmp</file>
+  <startLoc x="0" y="312"/>
+  <frames>8</frames>
+  <frameWidth>512</frameWidth>
+  <frameHeight>256</frameHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</runner>
+
+<sun>
+    <chunk>
+      <size>9</size>
+      <distance>200</distance>
+    </chunk>
+  <file>images/happysun.png</file>
+  <startLoc x="750" y="-200"/>
+  <frames>1</frames>
+  <frameWidth>512</frameWidth>
+  <frameHeight>512</frameHeight>
+  <frameInterval>500</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</sun>
+
+<snowflake>
+  <file>images/orangeRectpng.png</file>
+  <scale>1</scale>
+  <startLoc x="200" y="0"/>
+  <speedX>-200</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</snowflake>
+
+<orangeRect>
+  <file>images/orangeRectpng.png</file>
+  <bullet>orange1</bullet>
+  <scale>1</scale>
+  <startLoc x="-200" y="0"/>
+  <speedX>-0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</orangeRect>
+
+<orange1>
+  <file>images/orangeRectpng.png</file>
+  <interval>100</interval>
+  <distance>20</distance>
+  <scale>1</scale>
+  <startLoc x="-1280" y="100"/>
+  <speedX>-100</speedX>
+  <speedY>0</speedY>
+</orange1>
+
+<redRect>
+  <file>images/redRect.png</file>
+  <bullet>red1</bullet>
+  <scale>1</scale>
+  <startLoc x="-200" y="0"/>
+  <speedX>-0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</redRect>
+
+<red1>
+  <file>images/redRect.png</file>
+  <interval>100</interval>
+  <distance>20</distance>
+  <scale>1</scale>
+  <startLoc x="-1280" y="100"/>
+  <speedX>-200</speedX>
+  <speedY>0</speedY>
+</red1>
+
+<starbrush>
+  <file>images/starbrush.png</file>
+  <scale>0.1</scale>
+  <startLoc x="200" y="0"/>
+  <speedX>-10</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</starbrush>
+
+<greyRect1>
+  <file>images/greyRect1.png</file>
+  <bullet>grey1</bullet>
+  <scale>1</scale>
+  <startLoc x="-200" y="0"/>
+  <speedX>-0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</greyRect1>
+
+<grey1>
+  <file>images/greyRect1.png</file>
+  <interval>100</interval>
+  <distance>20</distance>
+  <scale>1</scale>
+  <startLoc x="-200" y="100"/>
+  <speedX>-150</speedX>
+  <speedY>0</speedY>
+</grey1>
+
+<greyRect2>
+  <file>images/greyRect2.png</file>
+  <bullet>grey2</bullet>
+  <scale>1</scale>
+  <startLoc x="-200" y="0"/>
+  <speedX>-0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</greyRect2>
+
+<grey2>
+  <file>images/greyRect2.png</file>
+  <interval>100</interval>
+  <distance>20</distance>
+  <scale>1</scale>
+  <startLoc x="-1280" y="100"/>
+  <speedX>-100</speedX>
+  <speedY>0</speedY>
+</grey2>
+
+<greyRect3>
+  <file>images/greyRect3.png</file>
+  <bullet>grey3</bullet>
+  <scale>1</scale>
+  <startLoc x="-200" y="0"/>
+  <speedX>-0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</greyRect3>
+
+<grey3>
+  <file>images/greyRect3.png</file>
+  <interval>100</interval>
+  <distance>20</distance>
+  <scale>1</scale>
+  <startLoc x="-1280" y="100"/>
+  <speedX>-50</speedX>
+  <speedY>0</speedY>
+</grey3>
+
+<HUD>
+ <startLoc x="25" y="25"/>
+<!-- slideInSpeed is is not used yet. -->
+ <slideInSpeedX>0</slideInSpeedX>
+ <slideInSpeedY>0</slideInSpeedY>
+ <endLoc x="0" y="0"/>
+ <width>250</width>
+ <height>315</height>
+ <red>120</red>
+ <green>0</green>
+ <blue>255</blue>
+ <alpha>128</alpha>
+ <HUDTitle>Game Information</HUDTitle>
+</HUD>
+
+</GameData>
